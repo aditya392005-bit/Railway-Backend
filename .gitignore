@@ -1,9 +1,33 @@
-.env
-.env.*
-.venv/
-venv/
+
+# Python cache
 __pycache__/
 *.py[cod]
-.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Keep example environment file
+!.env.example
+
+# Database files
+*.db
+*.sqlite3
+
+# IDE files
 .vscode/
 .idea/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS files
+.DS_Store
+Thumbs.db
